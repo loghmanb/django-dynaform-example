@@ -1,6 +1,7 @@
 {
     "container": {
       "ports": [8000],
+      "installScript": "pip install -r requirements.txt",
       "startScript": "python manage.py runserver 0.0.0.0:8000"
     }
 }
