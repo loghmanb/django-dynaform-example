@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-jjxe18o1)yo)b&8yl=odbm=updv8kh$txo9*2%2shq5!#3as+g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 if "CODESPACE_NAME" in os.environ:
     codespace_name = os.getenv("CODESPACE_NAME")
